@@ -8,7 +8,13 @@
 <title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD
+Hello
+Hello2
+Hello3
+=======
 
+>>>>>>> branch 'master' of https://github.com/EEIT90Team006/RemoteRepository1213.git
 <h3>Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp"/>">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp"/>">Product</a></h3>
