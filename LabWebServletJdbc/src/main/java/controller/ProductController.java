@@ -44,6 +44,9 @@ public class ProductController {
 		Map<String, String> errors = new HashMap<String, String>();
 		model.addAttribute("errors", errors);
 
+		System.out.println("test");
+
+
 		if("Insert".equals(prodaction) || "Update".equals(prodaction) || "Delete".equals(prodaction)) {
 			if(temp1==null || temp1.length()==0) {
 				errors.put("id", "(mvc) Please enter ID for "+prodaction);
