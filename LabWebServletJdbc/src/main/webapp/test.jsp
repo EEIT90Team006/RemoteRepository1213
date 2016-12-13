@@ -21,5 +21,6 @@ CustomerBean bean = customerService.login("Alex", "A");
 %>
 <h1><%=bean%></h1>
 <h1>Hello XXX</h1>
+<h1>hahahaha~~~~</h1>
 </body>
 </html>
