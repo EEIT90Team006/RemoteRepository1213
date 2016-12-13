@@ -43,7 +43,9 @@ public class ProductController {
 //驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
 		model.addAttribute("errors", errors);
+
 		System.out.println("test");
+
 
 		if("Insert".equals(prodaction) || "Update".equals(prodaction) || "Delete".equals(prodaction)) {
 			if(temp1==null || temp1.length()==0) {
