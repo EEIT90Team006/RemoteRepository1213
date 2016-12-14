@@ -7,9 +7,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home ooo</title>
 </head>
+
 <body>
 
-<h1>志厚</h1>
+<h1>厚厚</h1>
+
+<body>
 
 <h1>林育辰</h1>
 <h1>林君哲</h1>
