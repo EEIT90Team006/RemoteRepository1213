@@ -28,7 +28,6 @@ public class LoginController {
 
 	//test
 
-//hahahahaha~~~~~~~~~~~~~~~~
 
 
 	@RequestMapping
