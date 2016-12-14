@@ -20,6 +20,11 @@ CustomerService customerService = (CustomerService) context.getBean("customerSer
 CustomerBean bean = customerService.login("Alex", "A");
 %>
 <h1><%=bean%></h1>
+<<<<<<< HEAD
+<h1>Hello XXX</h1>
+<h1>hahahaha~~~~</h1>
+=======
 
+>>>>>>> branch 'master' of https://github.com/EEIT90Team006/RemoteRepository1213.git
 </body>
 </html>
