@@ -30,6 +30,7 @@ public class LoginController {
 
 //hahahahaha~~~~~~~~~~~~~~~~
 
+
 	@RequestMapping
 	public String service(
 			@RequestParam(name="username") String username,
