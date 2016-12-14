@@ -7,9 +7,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home ooo</title>
 </head>
+
 <body>
+
+<h1>厚厚</h1>
+
+<body>
+
 <h1>林育辰</h1>
 <h1>林君哲</h1>
+
 <h3>Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp"/>">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp"/>">Product</a></h3>
