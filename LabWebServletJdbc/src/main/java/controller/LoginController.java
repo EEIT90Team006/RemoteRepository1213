@@ -25,7 +25,11 @@ public class LoginController {
 	@Autowired
 	@Resource(name="customerService")
 	private CustomerService customerService;
-	
+
+	//test
+
+//hahahahaha~~~~~~~~~~~~~~~~
+
 	@RequestMapping
 	public String service(
 			@RequestParam(name="username") String username,
