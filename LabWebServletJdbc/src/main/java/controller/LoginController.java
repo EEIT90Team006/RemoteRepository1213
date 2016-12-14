@@ -25,7 +25,11 @@ public class LoginController {
 	@Autowired
 	@Resource(name="customerService")
 	private CustomerService customerService;
-	
+
+	//test
+
+
+
 	@RequestMapping
 	public String service(
 			@RequestParam(name="username") String username,
@@ -34,6 +38,9 @@ public class LoginController {
 //接收資料
 //驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
+
+		System.out.println("test2");
+
 		model.addAttribute("errors", errors);
 		if(username==null || username.length()==0) {
 			errors.put("username", "ID is required (mvc)");
